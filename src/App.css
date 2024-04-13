@@ -1,3 +1,7 @@
+div{
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.black-nav{
+  display: flex;
+  background: black;
+  width: 100%;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.list{
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.modal{
+  background:skyblue;
+  text-align: left;
+  padding: 20px;
 }
